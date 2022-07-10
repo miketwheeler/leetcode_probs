@@ -12,8 +12,6 @@ const n = 15;
 let callCount = 0;
 
 
-
-
 function solution(isBadVersion) {
     
     function isBadVersion(value) {
