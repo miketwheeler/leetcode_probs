@@ -3,6 +3,9 @@
 //  0 <= strs[i].length <= 200
 //  strs[i] consists of only lowercase English letters.
 
+
+//  UNSOLVED !!! COME BACK ANOTHER DAY!!!
+
 const stringArr1 = ["flower","flow","flight", "flutter"];
 const stringArr2 = ["philippines","philosophy","phillips", "phantom"];
 const stringArr3 = ["xenotype", "phenotype", "family", "synchronous"];
@@ -56,5 +59,3 @@ function longestCommonPrefix(strs) {
 
 
 console.log(`returned:  ${longestCommonPrefix(stringArr5)} && the counter: ${counter}`);
-
- // theory: if the first 2 strings don't have common prefix then none of set would have a least common prefix too
