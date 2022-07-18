@@ -10,7 +10,7 @@
  * @param {Node|null} root
  * @return {number[]}
  */ 
- var preorder = function(root) {
+var preorder = function(root) {
     const retArr = []
     
     naryTraversal(root);
@@ -26,4 +26,5 @@
     }
     
     return retArr;
+
 };
